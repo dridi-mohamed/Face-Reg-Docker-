@@ -1,0 +1,51 @@
+docker ps 
+
+get conatersis ID 
+
+use next to run 
+
+
+-------------
+isnide Conaters 
+--------------
+
+ apt update 
+ apt install python -y
+ apt install python3-pip -y
+ 
+ pip3 install  cmake
+ pip3 install  numpy
+ pip3 install  face_recognition
+ pip3 install dlib 
+ pip3 install opencv-python
+ 
+ 
+ 
+ -------
+ Seseion 2 MobaXterm
+ ---------------------
+ 
+ Get conaters id 
+ docker ps 
+ 
+ docker cp <folder> conaterid:/home/
+ 
+ 
+ -----------
+ inside Conaters 
+ ------------
+ 
+ open folder :
+ 
+ cd face_reg
+ 
+run code 
+ python 
+ 
+ 
+ GET piter to lacal pc
+ 
+ docker cp <containerId>:/file/path/within/container /host/path/target
+ 
+ 
+ 
